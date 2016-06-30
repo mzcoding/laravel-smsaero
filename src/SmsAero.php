@@ -6,7 +6,7 @@ class SmsAero {
     private $password; 
     private $sign; 
 
-    public function __construct($login, $password, $sign = false){
+    public function __construct(){
         $this->login = config('smsaero.login');
         $this->password = md5(config('smsaero.password'));
         $this->sign = config('smsaero.sign');
