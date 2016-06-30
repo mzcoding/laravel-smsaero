@@ -1,10 +1,10 @@
 <?php namespace Mzcoding\SmsAero;
 
-use Illuminate\Support\ServiceProvider as MServiceProvider;
+use Illuminate\Support\ServiceProvider;
 use Mzcoding\SmsAero\SmsAero;
 
 
-class SmsAeroServiceProvider extends MServiceProvider {
+class SmsAeroServiceProvider extends ServiceProvider {
   public function boot(){
   	
   }
