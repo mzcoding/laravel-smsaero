@@ -13,3 +13,7 @@ Mzcoding\SmsAero\SmsAeroServiceProvider::class
 ...
 'SmsAero'    => Mzcoding\SmsAero\SmsAeroFacade::class
 </span></span></pre>
+
+<h2>Настройки</h2>
+
+Для вывода файла настроек в терминале выполните следующую комманду:
