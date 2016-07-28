@@ -17,3 +17,7 @@ Mzcoding\SmsAero\SmsAeroServiceProvider::class
 <h2>Настройки</h2>
 
 Для вывода файла настроек в терминале выполните следующую комманду:
+
+<pre><span class="pl-s"><span class="pl-pds">
+ php artisan vendor:publish --provider="Mzcoding\SmsAero\SmsAeroServiceProvider" --tag="config"
+ </span></pre>
